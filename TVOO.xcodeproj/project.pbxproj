@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1716D4DF1E64FB0E0080CA13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D4DE1E64FB0E0080CA13 /* AppDelegate.swift */; };
-		1716D4E11E64FB0E0080CA13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D4E01E64FB0E0080CA13 /* ViewController.swift */; };
 		1716D4E41E64FB0E0080CA13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D4E21E64FB0E0080CA13 /* Main.storyboard */; };
 		1716D4E61E64FB0E0080CA13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1716D4E51E64FB0E0080CA13 /* Assets.xcassets */; };
 		1716D4E91E64FB0E0080CA13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D4E71E64FB0E0080CA13 /* LaunchScreen.storyboard */; };
 		1716D4F41E64FB0E0080CA13 /* TVOOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D4F31E64FB0E0080CA13 /* TVOOTests.swift */; };
 		1716D4FF1E64FB0E0080CA13 /* TVOOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D4FE1E64FB0E0080CA13 /* TVOOUITests.swift */; };
+		1716D5151E650B0A0080CA13 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D5131E650B0A0080CA13 /* Home.storyboard */; };
+		1716D5181E650B460080CA13 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D5161E650B460080CA13 /* Live.storyboard */; };
+		1716D51B1E650B630080CA13 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D5191E650B630080CA13 /* Follow.storyboard */; };
+		1716D51D1E650B730080CA13 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1716D51C1E650B730080CA13 /* Profile.storyboard */; };
+		1716D5241E65195C0080CA13 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D5211E65195C0080CA13 /* MainViewController.swift */; };
+		1716D5291E6519BA0080CA13 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D5281E6519BA0080CA13 /* HomeViewController.swift */; };
+		1716D52E1E6550780080CA13 /*  UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D52D1E6550780080CA13 /*  UIBarButtonItem-Extension.swift */; };
+		1716D5301E6558480080CA13 /* MXPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D52F1E6558480080CA13 /* MXPageTitleView.swift */; };
+		1716D5321E655AAC0080CA13 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D5311E655AAC0080CA13 /* Common.swift */; };
+		1716D5361E656DA60080CA13 /* MXPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D5351E656DA60080CA13 /* MXPageContentView.swift */; };
+		1716D5381E6570E80080CA13 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1716D5371E6570E80080CA13 /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		1716D4DB1E64FB0E0080CA13 /* TVOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1716D4DE1E64FB0E0080CA13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1716D4E01E64FB0E0080CA13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1716D4E31E64FB0E0080CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1716D4E51E64FB0E0080CA13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1716D4E81E64FB0E0080CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		1716D4FA1E64FB0E0080CA13 /* TVOOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1716D4FE1E64FB0E0080CA13 /* TVOOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVOOUITests.swift; sourceTree = "<group>"; };
 		1716D5001E64FB0E0080CA13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1716D5141E650B0A0080CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		1716D5171E650B460080CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		1716D51A1E650B630080CA13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		1716D51C1E650B730080CA13 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../Profile.storyboard; sourceTree = "<group>"; };
+		1716D5211E65195C0080CA13 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1716D5281E6519BA0080CA13 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1716D52D1E6550780080CA13 /*  UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		1716D52F1E6558480080CA13 /* MXPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXPageTitleView.swift; sourceTree = "<group>"; };
+		1716D5311E655AAC0080CA13 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1716D5351E656DA60080CA13 /* MXPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXPageContentView.swift; sourceTree = "<group>"; };
+		1716D5371E6570E80080CA13 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,8 @@
 		1716D4DD1E64FB0E0080CA13 /* TVOO */ = {
 			isa = PBXGroup;
 			children = (
+				1716D50C1E6504A80080CA13 /* Clasess */,
 				1716D4DE1E64FB0E0080CA13 /* AppDelegate.swift */,
-				1716D4E01E64FB0E0080CA13 /* ViewController.swift */,
-				1716D4E21E64FB0E0080CA13 /* Main.storyboard */,
 				1716D4E51E64FB0E0080CA13 /* Assets.xcassets */,
 				1716D4E71E64FB0E0080CA13 /* LaunchScreen.storyboard */,
 				1716D4EA1E64FB0E0080CA13 /* Info.plist */,
@@ -123,6 +142,129 @@
 				1716D5001E64FB0E0080CA13 /* Info.plist */,
 			);
 			path = TVOOUITests;
+			sourceTree = "<group>";
+		};
+		1716D50C1E6504A80080CA13 /* Clasess */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5101E6504A80080CA13 /* Main */,
+				1716D50E1E6504A80080CA13 /* Home */,
+				1716D50F1E6504A80080CA13 /* Live */,
+				1716D50D1E6504A80080CA13 /* Follow */,
+				1716D5111E6504A80080CA13 /* Profile */,
+				1716D5121E6504A80080CA13 /* Tools */,
+			);
+			path = Clasess;
+			sourceTree = "<group>";
+		};
+		1716D50D1E6504A80080CA13 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5191E650B630080CA13 /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1716D50E1E6504A80080CA13 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5261E6519670080CA13 /* Model */,
+				1716D5271E6519670080CA13 /* View */,
+				1716D5251E6519670080CA13 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1716D50F1E6504A80080CA13 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5161E650B460080CA13 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1716D5101E6504A80080CA13 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5221E65195C0080CA13 /* Model */,
+				1716D5231E65195C0080CA13 /* View */,
+				1716D5201E65195C0080CA13 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1716D5111E6504A80080CA13 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1716D51C1E650B730080CA13 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1716D5121E6504A80080CA13 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1716D52A1E654FD70080CA13 /* Extension */,
+				1716D5311E655AAC0080CA13 /* Common.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1716D5201E65195C0080CA13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1716D4E21E64FB0E0080CA13 /* Main.storyboard */,
+				1716D5211E65195C0080CA13 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1716D5221E65195C0080CA13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1716D5231E65195C0080CA13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1716D52F1E6558480080CA13 /* MXPageTitleView.swift */,
+				1716D5351E656DA60080CA13 /* MXPageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1716D5251E6519670080CA13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1716D5131E650B0A0080CA13 /* Home.storyboard */,
+				1716D5281E6519BA0080CA13 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1716D5261E6519670080CA13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1716D5271E6519670080CA13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1716D52A1E654FD70080CA13 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1716D52D1E6550780080CA13 /*  UIBarButtonItem-Extension.swift */,
+				1716D5371E6570E80080CA13 /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,12 +329,14 @@
 		1716D4D31E64FB0E0080CA13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MX;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = XLJ;
 				TargetAttributes = {
 					1716D4DA1E64FB0E0080CA13 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25SR756ECR;
 						ProvisioningStyle = Automatic;
 					};
 					1716D4EE1E64FB0E0080CA13 = {
@@ -235,6 +379,10 @@
 				1716D4E91E64FB0E0080CA13 /* LaunchScreen.storyboard in Resources */,
 				1716D4E61E64FB0E0080CA13 /* Assets.xcassets in Resources */,
 				1716D4E41E64FB0E0080CA13 /* Main.storyboard in Resources */,
+				1716D5181E650B460080CA13 /* Live.storyboard in Resources */,
+				1716D5151E650B0A0080CA13 /* Home.storyboard in Resources */,
+				1716D51D1E650B730080CA13 /* Profile.storyboard in Resources */,
+				1716D51B1E650B630080CA13 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +407,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1716D4E11E64FB0E0080CA13 /* ViewController.swift in Sources */,
 				1716D4DF1E64FB0E0080CA13 /* AppDelegate.swift in Sources */,
+				1716D5381E6570E80080CA13 /* UIColor-Extension.swift in Sources */,
+				1716D5241E65195C0080CA13 /* MainViewController.swift in Sources */,
+				1716D5301E6558480080CA13 /* MXPageTitleView.swift in Sources */,
+				1716D5361E656DA60080CA13 /* MXPageContentView.swift in Sources */,
+				1716D52E1E6550780080CA13 /*  UIBarButtonItem-Extension.swift in Sources */,
+				1716D5321E655AAC0080CA13 /* Common.swift in Sources */,
+				1716D5291E6519BA0080CA13 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +456,7 @@
 				1716D4E31E64FB0E0080CA13 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		1716D4E71E64FB0E0080CA13 /* LaunchScreen.storyboard */ = {
@@ -310,6 +465,33 @@
 				1716D4E81E64FB0E0080CA13 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1716D5131E650B0A0080CA13 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1716D5141E650B0A0080CA13 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		1716D5161E650B460080CA13 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1716D5171E650B460080CA13 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1716D5191E650B630080CA13 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1716D51A1E650B630080CA13 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,7 +592,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 25SR756ECR;
 				INFOPLIST_FILE = TVOO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.TVOO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +607,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 25SR756ECR;
 				INFOPLIST_FILE = TVOO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.TVOO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
